@@ -1,0 +1,25 @@
+body {
+  color: #4fc08d;
+}
+
+.title {
+  text-align: center;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+
+.posts {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.article {
+  text-align: center;
+  color: #333;
+}

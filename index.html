@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./vendor/style.css">
+  </head>
+  <body>
+      <div id="app"></div>
+  </body>
+  <script id="template" type="x-template">
+      <div>
+        <h1 class="title">Welcome {{username}}, This is Service Worker Page</h1>
+        <div class="banner">
+          <img src="/vendor/welcome.jpg" alt="">
+        </div>
+        <div class="posts">
+          <section v-for="post in posts" class="article">
+            <h2>{{post['title']}}</h2>
+            <p v-html="post['message']"></p>
+          </section>
+        </div>
+      </div>
+  </script>
+  <script src="./vendor/vue.js"></script>
+  <script src="./vendor/app.js"></script>
+</html>

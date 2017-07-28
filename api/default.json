@@ -1,0 +1,14 @@
+{
+  "username": "Guest",
+  "posts": [
+    {
+      "title": "使用 Service Workers", 
+      "message": "<p><a href='https://developer.mozilla.org/zh-CN/docs/Web/API/Service_Worker_API/Using_Service_Workers' target='_blank'>详情请点击这里</a></p>"
+    },
+    {
+      "title": "页面守护者：Service Worker",
+      "message": "<p><a href='http://imweb.io/topic/56592b8a823633e31839fc01' target='_blank'>详情请点击这里</a></p>"
+    }
+  ]
+}
+
