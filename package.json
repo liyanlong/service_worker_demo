@@ -6,11 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "dev": "nodemon --watch server.js ./server.js"
+    "dev": "nodemon --watch server.js ./server.js",
+    "deploy": "gh-pages -d public"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "nodemon": "^1.11.0"
   },
   "dependencies": {

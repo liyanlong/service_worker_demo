@@ -1,5 +1,5 @@
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js', { scope: '/' }).then(function(reg) {
+  navigator.serviceWorker.register('./sw.js', { scope: './' }).then(function(reg) {
     // registration worked
     console.log('Registration succeeded. Scope is ' + reg.scope);
   }).catch(function(error) {
@@ -8,7 +8,7 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-fetch('/api/default.json')
+fetch('./api/default.json')
   .then(function (res) {
     res.json().then(function(data) {
       var vm = new Vue({
