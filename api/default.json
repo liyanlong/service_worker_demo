@@ -1,5 +1,6 @@
 {
   "username": "Guest",
+  "banner": "./vendor/welcome.jpg",
   "posts": [
     {
       "title": "使用 Service Workers", 

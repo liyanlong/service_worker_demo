@@ -10,7 +10,7 @@
       <div>
         <h1 class="title">Welcome {{username}}, This is Service Worker Page</h1>
         <div class="banner">
-          <img src="/vendor/welcome.jpg" alt="">
+          <img :src="banner" alt="">
         </div>
         <div class="posts">
           <section v-for="post in posts" class="article">
