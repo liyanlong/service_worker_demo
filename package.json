@@ -1,0 +1,21 @@
+{
+  "name": "service_worker_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon --watch server.js ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "finalhandler": "^1.0.3",
+    "serve-static": "^1.12.3",
+    "server-static": "^2.0.5"
+  }
+}
