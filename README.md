@@ -5,7 +5,7 @@ A simple service worker demo, it's help us to understand service worker mechanis
 
 or you can scan QR code
 
-![QR Code](./images/QR.png)
+![QR Code](https://liyanlong.github.io/service_worker_demo/images/QR.png)
 
 # Usage
 

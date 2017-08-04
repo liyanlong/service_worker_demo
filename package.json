@@ -1,6 +1,6 @@
 {
   "name": "service_worker_demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Service Worker, Demo",
   "main": "index.js",
   "scripts": {
