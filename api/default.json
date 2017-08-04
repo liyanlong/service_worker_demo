@@ -1,5 +1,6 @@
 {
   "username": "Guest",
+  "version": "20170804v1",
   "banner": "./vendor/welcome.jpg",
   "posts": [
     {
@@ -9,6 +10,10 @@
     {
       "title": "页面守护者：Service Worker",
       "message": "<p><a href='http://imweb.io/topic/56592b8a823633e31839fc01' target='_blank'>详情请点击这里</a></p>"
+    },
+    {
+      "title": "官方demo地址",
+      "message": "<a href=\"https://mdn.github.io/sw-test/\">https://mdn.github.io/sw-test/<a/>"
     }
   ]
 }
