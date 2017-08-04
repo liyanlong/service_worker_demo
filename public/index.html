@@ -8,7 +8,10 @@
   </body>
   <script id="template" type="x-template">
       <div>
-        <h1 class="title">Welcome {{username}}, This is Service Worker Page</h1>
+        <h1 class="title">
+          Welcome {{username}}, This is Service Worker Page
+          <p><small>current version: {{version}}</small></p>
+        </h1>
         <div class="banner">
           <img :src="banner" alt="">
         </div>
