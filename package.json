@@ -1,7 +1,7 @@
 {
   "name": "service_worker_demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Service Worker, Demo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "dev": "nodemon --watch server.js ./server.js",
     "deploy": "gh-pages -d public"
   },
-  "author": "",
+  "author": "liyl",
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^1.0.0",
