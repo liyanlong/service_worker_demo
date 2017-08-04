@@ -9,15 +9,14 @@ or you can scan QR code
 
 # Usage
 
-```javascript
-  git https://github.com/liyanlong/service_worker_demo/
+```
+  git clone https://github.com/liyanlong/service_worker_demo/
   npm install
   npm run dev or npm run start
 ```
 
 # License 
 [MIT](https://github.com/liyanlong/service_worker_demo/blob/master/LICENSE)
-
 
 # Relationship
 - [sw-test](https://github.com/mdn/sw-test)
